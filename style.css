@@ -58,4 +58,11 @@ a:hover {
   background-image: url(image-4.jpg);
 }
 
+/* responsive */
+@media (max-width: 800px) {
+  section {
+    background-attachment: scroll;  /* removes paralax effect otherwise breaks on mobile */
+    height: 60vw; /* height set to 60% of the viewport height, ensuring background images are not cut off and we see the full image on mobile */
+  }
+}
 
