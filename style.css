@@ -1,0 +1,61 @@
+body {
+  font-family: Cooper Hewitt;
+  font-size: 16px;
+  background-color: #004d96;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff; /*removes default color and changes it to white */
+  text-decoration: none; /* removes default underline */
+}
+
+section {
+  height: 100vh; /* set to 100vh (viewport height) meaning it will be releative to the height of our browser window */
+  background-size: cover; /* covers full width and height of section without skewing or repeating image */
+ background-attachment: fixed; /* this fixes the background to the viewport, thus making a parllax effect */
+}
+
+header {
+  position: fixed; /*this allows us to position the header in relation to the browser viewport - in this case  puts the header on top of the section */
+  top: 20px; /*20px from the top of page */
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px; /* 20px from bottom of page */
+  left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px; /* creating space between h1 and p tag */
+}
+
+footer a {
+  margin-right: 5px; /* creating space between links */
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+/*applying styles to any element with class attribute related to our images */
+
+.image_1 {
+  background-image: url(image-1.jpg);
+}
+
+.image_2 {
+  background-image: url(image-2.jpg);
+}
+
+.image_3 {
+  background-image: url(image-3.jpg);
+}
+.image_4 {
+  background-image: url(image-4.jpg);
+}
+
+
